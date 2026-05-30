@@ -176,6 +176,12 @@ footer{text-align:center;padding:28px 0 0;font-size:11px;color:var(--text2);bord
   <div class="load-sec">
     <div class="load-info"><strong>Bonoloto</strong><span>6/49 · Lunes a Sábado · Histórico 1988–2026</span></div>
     <div class="load-actions">
+      <div class="ninput">
+        <span>Apuestas</span>
+        <button class="step" onclick="step('bonoloto',-1)">−</button>
+        <span class="nval" id="n-bonoloto">5</span>
+        <button class="step" onclick="step('bonoloto',1)">+</button>
+      </div>
       <button class="btn btn-gold" onclick="iniciar('bonoloto')">▶ Iniciar análisis</button>
     </div>
   </div>
@@ -191,14 +197,8 @@ footer{text-align:center;padding:28px 0 0;font-size:11px;color:var(--text2);bord
       <button class="itab" onclick="switchTab('bonoloto','pairs')">Parejas</button>
     </div>
     <div class="itc active" id="bonoloto-combos">
-      <div class="gcontrols">
-        <div class="ninput">
-          <span>Apuestas</span>
-          <button class="step" onclick="step('bonoloto',-1)">−</button>
-          <span class="nval" id="n-bonoloto">5</span>
-          <button class="step" onclick="step('bonoloto',1)">+</button>
-        </div>
-        <button class="btn btn-gold" onclick="generar('bonoloto')">✦ Generar</button>
+      <div style="display:flex;justify-content:flex-end;margin-bottom:10px">
+        <button class="btn btn-sm" onclick="generar('bonoloto')">↻ Regenerar</button>
       </div>
       <div class="legend">
         <div class="li"><div class="ld" style="background:linear-gradient(135deg,#FF8C42,#FF5A5A)"></div>Caliente (top ⅓)</div>
@@ -218,6 +218,12 @@ footer{text-align:center;padding:28px 0 0;font-size:11px;color:var(--text2);bord
   <div class="load-sec">
     <div class="load-info"><strong>La Primitiva</strong><span>6/49 + complementario · Jueves y Sábado · Histórico 1985–2026</span></div>
     <div class="load-actions">
+      <div class="ninput">
+        <span>Apuestas</span>
+        <button class="step" onclick="step('primitiva',-1)">−</button>
+        <span class="nval" id="n-primitiva">5</span>
+        <button class="step" onclick="step('primitiva',1)">+</button>
+      </div>
       <button class="btn btn-gold" onclick="iniciar('primitiva')">▶ Iniciar análisis</button>
     </div>
   </div>
@@ -233,14 +239,8 @@ footer{text-align:center;padding:28px 0 0;font-size:11px;color:var(--text2);bord
       <button class="itab" onclick="switchTab('primitiva','pairs')">Parejas</button>
     </div>
     <div class="itc active" id="primitiva-combos">
-      <div class="gcontrols">
-        <div class="ninput">
-          <span>Apuestas</span>
-          <button class="step" onclick="step('primitiva',-1)">−</button>
-          <span class="nval" id="n-primitiva">5</span>
-          <button class="step" onclick="step('primitiva',1)">+</button>
-        </div>
-        <button class="btn btn-gold" onclick="generar('primitiva')">✦ Generar</button>
+      <div style="display:flex;justify-content:flex-end;margin-bottom:10px">
+        <button class="btn btn-sm" onclick="generar('primitiva')">↻ Regenerar</button>
       </div>
       <div class="legend">
         <div class="li"><div class="ld" style="background:linear-gradient(135deg,#FF8C42,#FF5A5A)"></div>Caliente</div>
@@ -261,6 +261,12 @@ footer{text-align:center;padding:28px 0 0;font-size:11px;color:var(--text2);bord
   <div class="load-sec">
     <div class="load-info"><strong>EuroMillón</strong><span>5/50 + 2 estrellas 1–12 · Martes y Viernes · Histórico 2004–2026</span></div>
     <div class="load-actions">
+      <div class="ninput">
+        <span>Apuestas</span>
+        <button class="step" onclick="step('euromillon',-1)">−</button>
+        <span class="nval" id="n-euromillon">5</span>
+        <button class="step" onclick="step('euromillon',1)">+</button>
+      </div>
       <button class="btn btn-gold" onclick="iniciar('euromillon')">▶ Iniciar análisis</button>
     </div>
   </div>
@@ -276,14 +282,8 @@ footer{text-align:center;padding:28px 0 0;font-size:11px;color:var(--text2);bord
       <button class="itab" onclick="switchTab('euromillon','pairs')">Parejas</button>
     </div>
     <div class="itc active" id="euromillon-combos">
-      <div class="gcontrols">
-        <div class="ninput">
-          <span>Apuestas</span>
-          <button class="step" onclick="step('euromillon',-1)">−</button>
-          <span class="nval" id="n-euromillon">5</span>
-          <button class="step" onclick="step('euromillon',1)">+</button>
-        </div>
-        <button class="btn btn-gold" onclick="generar('euromillon')">✦ Generar</button>
+      <div style="display:flex;justify-content:flex-end;margin-bottom:10px">
+        <button class="btn btn-sm" onclick="generar('euromillon')">↻ Regenerar</button>
       </div>
       <div class="legend">
         <div class="li"><div class="ld" style="background:linear-gradient(135deg,#FF8C42,#FF5A5A)"></div>Caliente</div>
